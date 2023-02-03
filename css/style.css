@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    padding: 8vh;
+    width:  960px
+}
+
+.currencyCalculator{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*padding: 3vh;*/
+    background-color: papayawhip;
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+    border: black solid 1px;
+}
+
+.inputValue{
+    display: block;
+}
+
+.valueField{
+    border-radius: 5px;
+    border: 1px lightslategrey solid;
+    width: 75px;
+}
+
+.currency{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+    height: 75%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: lightslategrey 1px solid;
+}
+label{
+    display: block;
+}
+input{
+
+}

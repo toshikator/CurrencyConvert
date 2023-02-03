@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+</head>
+<body>
+<div class="wrapper">
+    <div class="currencyCalculator">
+        <div class="currency" id="currencyFrom">
+            <label for="listCurrencyFrom">Currency convert from</label>
+            <select id="listCurrencyFrom">
+                <option>from api</option>
+            </select>
+
+            <input class="valueField inputValue" type="number" id="inputValue" >
+            <label for="inputValue"></label>
+        </div>
+        <button id="convertBtn">convert</button>
+        <div class="currency" id="currencyTo">
+            <label for="listCurrencyTo">Currency convert to</label>
+            <select id="listCurrencyTo">
+                <option>from api</option>
+            </select>
+            <p class="valueField" id="resultValue">resultValue</p>
+            <label for="resultValue"></label>
+        </div>
+
+
+
+    </div>
+
+    <script src="./js/dal.js"></script>
+    <script src="./js/ui.js"></script>
+</div>
+</body>
+</html>
